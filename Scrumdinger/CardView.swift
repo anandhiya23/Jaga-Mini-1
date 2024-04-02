@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct CardView: View {
-    let scrum: DailyScrum
+    let record: Record
     var body: some View {
         HStack{
             VStack(alignment: .center){
                 Spacer()
-                Text(String(format:"%03d",scrum.slotNumber))
+                Text(String(format:"%03d",record.slotNumber))
                     .font(.system(size: 36))
                     .fontWeight(.bold)
                     .foregroundStyle(Color(hue: 0.08, saturation: 0.971, brightness: 0.937))
@@ -24,9 +24,9 @@ struct CardView: View {
             .overlay(Rectangle().frame(width: 1, height: nil, alignment: .trailing).foregroundColor(Color(red: 1.0, green: 0.792156862745098, blue: 0.6)), alignment: .trailing)
             
             VStack(alignment: .leading,spacing: 10) {
-                Text("**\(Image(systemName: "person"))**  \(scrum.name)")
-                Text("**\(Image(systemName: "number.square"))**  \(scrum.plateNumber)")
-                Text("**\(Image(systemName: "clock"))**  \(scrum.timeWentIn)")
+                Text("**\(Image(systemName: "person"))**  \(record.name)")
+                Text("**\(Image(systemName: "number.square"))**  \(record.plateNumber)")
+                Text("**\(Image(systemName: "clock"))**  \(record.timeWentIn)")
             }.font(.system(size: 14))
             .padding(.leading)
             
@@ -41,7 +41,7 @@ struct CardView: View {
         }
         .background(Color.init(UIColor.white))
         .background(
-            NavigationLink("", destination: Text("SLOT: \(scrum.slotNumber) \nNAME: \(scrum.name)"))
+            NavigationLink("", destination: Text("SLOT: \(record.slotNumber) \nNAME: \(record.name)"))
                         .opacity(0)
                 )
         
@@ -50,12 +50,12 @@ struct CardView: View {
 
 
 struct CardView_Previews: PreviewProvider {
-    static var scrum = DailyScrum.sampleData[1]
+    static var sampleRecord = Record.sampleData[1]
     static var previews: some View {
-        CardView(scrum: scrum)
+        CardView(record: sampleRecord)
             .previewLayout(.fixed(width: 400, height: 130))
             .frame(height:130)
-        CardView(scrum: DailyScrum.sampleData[2])
+        CardView(record: Record.sampleData[2])
             .previewLayout(.fixed(width: 400, height: 130))
     }
 }

@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct MainView: View {
-    var scrums = DailyScrum.sampleData
+    var sampleRecord = Record.sampleData
     @State private var searchText = ""
     @State private var sortBy = 1
     
-    var results: [DailyScrum] {
-        let temp = searchText.isEmpty ? scrums : scrums.filter({ scrum in
+    var results: [Record] {
+        let temp = searchText.isEmpty ? sampleRecord : sampleRecord.filter({ scrum in
             scrum.name.contains(searchText)
         })
         switch(sortBy){
@@ -57,7 +57,7 @@ struct MainView: View {
                         
                         
                         ForEach(results, id: \.self){   scrum in
-                            CardView(scrum: scrum)
+                            CardView(record: scrum)
                                 .listRowInsets(EdgeInsets.init(.zero))
                                 
                                 .swipeActions {
