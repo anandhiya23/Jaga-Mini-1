@@ -88,7 +88,7 @@ struct MainView: View {
                 
                 HStack{
                     Button(action: {}){
-                        Label("Scan Id", systemImage: "plus.circle")
+                        Label("Scan Id", systemImage: "scanner")
                             .ignoresSafeArea()
                             .frame(minWidth: 0, maxWidth: .infinity)
                             .padding(.vertical,20)
