@@ -40,11 +40,13 @@ struct CardView: View {
             }
         }
         .background(Color.init(UIColor.white))
-        .background(
+        /*.background(
             NavigationLink("", destination: Text("SLOT: \(record.slotNumber) \nNAME: \(record.name)"))
                         .opacity(0)
-                )
-        
+                )*/
+        .background(
+            NavigationLink("", destination: ContentView())
+        )
     }
 }
 

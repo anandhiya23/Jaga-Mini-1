@@ -8,19 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		AAAE8020294793AB0099DABC /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */; };
-		AAAE8022294793AB0099DABC /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE8021294793AB0099DABC /* MeetingView.swift */; };
 		AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8023294793AB0099DABC /* Assets.xcassets */; };
 		AAAE8027294793AB0099DABC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE8026294793AB0099DABC /* Preview Assets.xcassets */; };
 		F80A97B72BB537870089864C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A97B62BB537870089864C /* Theme.swift */; };
 		F80A97B92BB539AC0089864C /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A97B82BB539AC0089864C /* Record.swift */; };
 		F80A97BB2BB53B3A0089864C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A97BA2BB53B3A0089864C /* CardView.swift */; };
 		F80BE4792BBA8BA600C95C16 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80BE4782BBA8BA600C95C16 /* MainView.swift */; };
+		F8731ACB2BBBF9B400D16997 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731ACA2BBBF9B400D16997 /* ScanView.swift */; };
+		F8731ACD2BBCFC8300D16997 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731ACC2BBCFC8300D16997 /* ContentView.swift */; };
+		F8731ACF2BBCFCCD00D16997 /* ContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731ACE2BBCFCCD00D16997 /* ContentData.swift */; };
+		F8731AD12BBCFDFF00D16997 /* WhatsApp Image 2024-04-03 at 09.59.10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F8731AD02BBCFDFF00D16997 /* WhatsApp Image 2024-04-03 at 09.59.10.jpeg */; };
+		F8731AD32BBD2BB300D16997 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731AD22BBD2BB300D16997 /* FormView.swift */; };
+		F8731AD82BBD509D00D16997 /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731AD42BBD509D00D16997 /* DataScannerView.swift */; };
+		F8731AD92BBD509D00D16997 /* ContentScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731AD52BBD509D00D16997 /* ContentScannerView.swift */; };
+		F8731ADA2BBD509D00D16997 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8731AD62BBD509D00D16997 /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AAAE801C294793AB0099DABC /* JagaMini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JagaMini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		AAAE8021294793AB0099DABC /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		AAAE8023294793AB0099DABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAAE8026294793AB0099DABC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AAAE802D2947945C0099DABC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -30,6 +36,14 @@
 		F80A97B82BB539AC0089864C /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		F80A97BA2BB53B3A0089864C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F80BE4782BBA8BA600C95C16 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F8731ACA2BBBF9B400D16997 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		F8731ACC2BBCFC8300D16997 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8731ACE2BBCFCCD00D16997 /* ContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentData.swift; sourceTree = "<group>"; };
+		F8731AD02BBCFDFF00D16997 /* WhatsApp Image 2024-04-03 at 09.59.10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WhatsApp Image 2024-04-03 at 09.59.10.jpeg"; sourceTree = "<group>"; };
+		F8731AD22BBD2BB300D16997 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		F8731AD42BBD509D00D16997 /* DataScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
+		F8731AD52BBD509D00D16997 /* ContentScannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentScannerView.swift; sourceTree = "<group>"; };
+		F8731AD62BBD509D00D16997 /* AppViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +79,20 @@
 		AAAE801E294793AB0099DABC /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				F8731AD62BBD509D00D16997 /* AppViewModel.swift */,
+				F8731AD52BBD509D00D16997 /* ContentScannerView.swift */,
+				F8731AD42BBD509D00D16997 /* DataScannerView.swift */,
 				F80A97B32BB537380089864C /* Models */,
 				AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */,
-				AAAE8021294793AB0099DABC /* MeetingView.swift */,
 				AAAE8023294793AB0099DABC /* Assets.xcassets */,
-				AAAE8025294793AB0099DABC /* Preview Content */,
+				F8731AD02BBCFDFF00D16997 /* WhatsApp Image 2024-04-03 at 09.59.10.jpeg */,
 				F80A97BA2BB53B3A0089864C /* CardView.swift */,
 				F80BE4782BBA8BA600C95C16 /* MainView.swift */,
+				F8731AD22BBD2BB300D16997 /* FormView.swift */,
+				F8731ACC2BBCFC8300D16997 /* ContentView.swift */,
+				F8731ACE2BBCFCCD00D16997 /* ContentData.swift */,
+				F8731ACA2BBBF9B400D16997 /* ScanView.swift */,
+				AAAE8025294793AB0099DABC /* Preview Content */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -160,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAAE8027294793AB0099DABC /* Preview Assets.xcassets in Resources */,
+				F8731AD12BBCFDFF00D16997 /* WhatsApp Image 2024-04-03 at 09.59.10.jpeg in Resources */,
 				AAAE8024294793AB0099DABC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,12 +193,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8731ACB2BBBF9B400D16997 /* ScanView.swift in Sources */,
 				F80A97B92BB539AC0089864C /* Record.swift in Sources */,
+				F8731ACD2BBCFC8300D16997 /* ContentView.swift in Sources */,
+				F8731ADA2BBD509D00D16997 /* AppViewModel.swift in Sources */,
+				F8731AD92BBD509D00D16997 /* ContentScannerView.swift in Sources */,
+				F8731AD82BBD509D00D16997 /* DataScannerView.swift in Sources */,
 				F80BE4792BBA8BA600C95C16 /* MainView.swift in Sources */,
+				F8731AD32BBD2BB300D16997 /* FormView.swift in Sources */,
 				F80A97B72BB537870089864C /* Theme.swift in Sources */,
-				AAAE8022294793AB0099DABC /* MeetingView.swift in Sources */,
 				AAAE8020294793AB0099DABC /* ScrumdingerApp.swift in Sources */,
 				F80A97BB2BB53B3A0089864C /* CardView.swift in Sources */,
+				F8731ACF2BBCFCCD00D16997 /* ContentData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +338,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F3KZHGXN6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Testing;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.bintang2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,8 +369,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F3KZHGXN6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = Testing;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -351,7 +383,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Scrumdinger";
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.bintang2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
