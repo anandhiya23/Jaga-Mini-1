@@ -1,9 +1,5 @@
-# Creating a Card View
+# Mini Challenge 1 Group 15 
+## C7S2 Apple Developer Academy Binus
 
-## Starting Project
+Jaga is an app that aims to empower security guards in managing inflow and outflow of guest vehicles in a single gate medium security housing complex.
 
-Use this project to code along with [Creating a Card View](https://developer.apple.com/tutorials/app-dev-training/creating-a-card-view).
-
-## Change Log
-
-* Added an app icon and color literals in the asset catalog.
